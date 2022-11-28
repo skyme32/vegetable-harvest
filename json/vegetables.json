@@ -1,0 +1,92 @@
+{
+	"data": [{
+			"id": 1,
+			"name_translations": {
+				"en": "Beans",
+				"es": "Habas",
+				"cat": "Faves"
+			},
+			"description_translations": {
+				"en": "The beans contain a significant amount of protein, complex carbohydrates, fats, fiber, potassium, vitamins and water.",
+				"es": "Las habas contienen una cantidad importante de proteínas, hidratos de carbono complejos, grasas, fibra, potasio, vitaminas y agua.",
+				"cat": "Les faves contenen una quantitat important de proteïnes, hidrats de carboni complexos, greixos, fibra, potassi, vitamines i aigua."
+			},
+			"type": "vegetable",
+			"image": "",
+			"season": [1, 2, 3],
+			"cold_season": [5, 6, 7]
+		},
+		{
+			"id": 2,
+			"name_translations": {
+				"en": "Peas",
+				"es": "Guisantes",
+				"cat": "Pèsols"
+			},
+			"description_translations": {
+				"en": "Fresh peas are a great source of simple sugars and high in fiber and carbohydrates.",
+				"es": "Los guisantes frescos son una estupenda fuente de azúcares simples y de hidratos de carbono y ricos en fibra.",
+				"cat": "Els pèsols frescos són una estupenda font de sucres simples i d'hidrats de carboni i rics en fibra."
+			},
+			"type": "vegetable",
+			"image": "",
+			"season": [1, 2, 3],
+			"cold_season": []
+		},
+		{
+			"id": 3,
+			"name_translations": {
+				"en": "Zucchini",
+				"es": "Calabacín",
+				"cat": "Carbassó"
+			},
+			"description_translations": {
+				"en": "Aqueous plant with only 15 kilocalories per 100 grams. There are a high content of folic acid.",
+				"es": "Planta acuosa con solo 15 kilocalorías por 100 gramos. Tiene un alto contenido en ácido fólico, vitaminas y potasio.",
+				"cat": "Planta aquosa amb només 15 quilocalories per 100 grams. Té un alt contingut en folats, vitamines i potassi."
+			},
+			"type": "vegetable",
+			"image": "",
+			"season": [5, 6, 7, 8, 9, 10],
+			"cold_season": []
+		},
+		{
+			"id": 4,
+			"name_translations": {
+				"en": "Pepper",
+				"es": "Pimiento",
+				"cat": "Pebrot"
+			},
+			"description_translations": {
+				"en": "",
+				"es": "",
+				"cat": ""
+			},
+			"type": "vegetable",
+			"image": "",
+			"season": [5, 6, 7, 8, 9, 10],
+			"cold_season": []
+		},
+		{
+			"id": 5,
+			"name_translations": {
+				"en": "Eggplant",
+				"es": "Berenjena",
+				"cat": "Albergínia"
+			},
+			"description_translations": {
+				"en": "",
+				"es": "",
+				"cat": ""
+			},
+			"type": "vegetable",
+			"image": "",
+			"season": [5, 6, 7, 8, 9, 10],
+			"cold_season": []
+		}
+	],
+	"meta": {
+		"api_version": "0.1.0",
+		"generated_in": 22
+	}
+}
