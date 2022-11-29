@@ -2,9 +2,20 @@ package com.skyme32.vegetabllance.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.skyme32.vegetabllance.R
+
+/*
+// Set of Material font
+val RobotoFont = FontFamily(
+    Font(R.font.roboto_regular,FontWeight.Normal),
+    Font(R.font.roboto_bold,FontWeight.Bold),
+    Font(R.font.roboto_thin,FontWeight.Thin)
+)
+ */
 
 // Set of Material typography styles to start with
 val Typography = Typography(
