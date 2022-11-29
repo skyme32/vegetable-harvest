@@ -8,21 +8,20 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.skyme32.vegetabllance.R
 
-/*
 // Set of Material font
-val RobotoFont = FontFamily(
-    Font(R.font.roboto_regular,FontWeight.Normal),
-    Font(R.font.roboto_bold,FontWeight.Bold),
-    Font(R.font.roboto_thin,FontWeight.Thin)
+val FarmFont = FontFamily(
+    Font(R.font.farm_house_fs,FontWeight.Normal)//,
+    //Font(R.font.roboto_bold,FontWeight.Bold),
+    //Font(R.font.roboto_thin,FontWeight.Thin)
 )
- */
+
 
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = FarmFont,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
+        fontSize = 21.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
     )
