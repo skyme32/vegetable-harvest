@@ -22,7 +22,7 @@ class DataSourceModule {
 
     @Singleton
     @Provides
-    fun provideRetrofit(@Named("BaseUrl") baseUrl: String ) : Retrofit {
+    fun provideRetrofit(@Named("BaseUrl") baseUrl: String): Retrofit {
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl(baseUrl)
@@ -31,5 +31,6 @@ class DataSourceModule {
 
     @Singleton
     @Provides
-    fun restDataSource(retrofit: Retrofit): RestDataSource = retrofit.create(RestDataSource::class.java)
+    fun restDataSource(retrofit: Retrofit): RestDataSource =
+        retrofit.create(RestDataSource::class.java)
 }
