@@ -1,10 +1,13 @@
 package com.skyme32.vegetabllance.data.api.di
 
+import android.content.Context
 import com.skyme32.vegetabllance.data.api.datasource.RestDataSource
+import com.skyme32.vegetabllance.data.local.datasource.DBDatasource
 import com.skyme32.vegetabllance.util.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -33,4 +36,10 @@ class DataSourceModule {
     @Provides
     fun restDataSource(retrofit: Retrofit): RestDataSource =
         retrofit.create(RestDataSource::class.java)
+
+    @Singleton
+    @Provides
+    fun dbDatasource(@ApplicationContext context: Context): DBDatasource {
+
+    }
 }

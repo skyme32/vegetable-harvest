@@ -8,15 +8,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.skyme32.vegetabllance.R
 
-// Set of Material font
 val FarmFont = FontFamily(
-    Font(R.font.farm_house_fs,FontWeight.Normal)//,
-    //Font(R.font.roboto_bold,FontWeight.Bold),
-    //Font(R.font.roboto_thin,FontWeight.Thin)
+    Font(R.font.farm_house_fs,FontWeight.Normal)
 )
 
-
-// Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = FarmFont,
@@ -24,21 +19,5 @@ val Typography = Typography(
         fontSize = 21.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
     ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
-    )
-    */
 )

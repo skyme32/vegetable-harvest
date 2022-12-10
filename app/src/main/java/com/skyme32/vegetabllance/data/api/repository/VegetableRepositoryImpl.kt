@@ -16,6 +16,7 @@ class VegetableRepositoryImpl @Inject constructor(
             dataSource.getVegetables().results[0].description_translations.en,
             dataSource.getVegetables().results[0].type,
             Language.ENGLISH.name,
+            dataSource.getVegetables().results[0].season
         )
     }
 }
