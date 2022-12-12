@@ -14,7 +14,6 @@ import com.google.accompanist.flowlayout.FlowRow
 import com.google.accompanist.flowlayout.SizeMode
 import com.skyme32.vegetabllance.util.parseMonths
 
-
 @ExperimentalMaterial3Api
 @Composable
 fun Post(

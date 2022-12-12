@@ -4,7 +4,6 @@ import android.util.Log
 import com.skyme32.vegetabllance.data.api.datasource.RestDataSource
 import com.skyme32.vegetabllance.data.local.datasource.VegetableDao
 import com.skyme32.vegetabllance.data.local.datasource.asDomainModel
-import com.skyme32.vegetabllance.data.local.model.VegetableSeason
 import com.skyme32.vegetabllance.data.local.model.VegetableTranslation
 import javax.inject.Inject
 

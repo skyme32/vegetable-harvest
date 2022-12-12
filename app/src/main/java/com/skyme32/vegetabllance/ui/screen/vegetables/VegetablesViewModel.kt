@@ -1,6 +1,5 @@
 package com.skyme32.vegetabllance.ui.screen.vegetables
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.skyme32.vegetabllance.data.repository.VegetableRepository

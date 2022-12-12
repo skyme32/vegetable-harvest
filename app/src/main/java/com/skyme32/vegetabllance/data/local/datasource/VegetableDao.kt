@@ -3,7 +3,6 @@ package com.skyme32.vegetabllance.data.local.datasource
 import androidx.room.*
 import com.skyme32.vegetabllance.data.local.model.*
 
-
 @Dao
 interface VegetableDao {
 
