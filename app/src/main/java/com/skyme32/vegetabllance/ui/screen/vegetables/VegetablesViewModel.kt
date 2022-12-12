@@ -3,7 +3,7 @@ package com.skyme32.vegetabllance.ui.screen.vegetables
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.skyme32.vegetabllance.data.api.repository.VegetableRepository
+import com.skyme32.vegetabllance.data.repository.VegetableRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -15,8 +15,8 @@ class VegetablesViewModel @Inject constructor(
 
     fun getVegetable() {
         viewModelScope.launch {
-            val vegetable = vegetableRepository.getNewVegetables()
-            Log.d("vegetable", vegetable.toString())
+            val vegetable = vegetableRepository.getAllVegetables("en")
+            Log.d("marcosTest", vegetable.toString())
         }
     }
 }

@@ -1,7 +1,7 @@
-package com.skyme32.vegetabllance.data.local.di
+package com.skyme32.vegetabllance.data.di
 
-import com.skyme32.vegetabllance.data.api.repository.VegetableRepository
-import com.skyme32.vegetabllance.data.api.repository.VegetableRepositoryImpl
+import com.skyme32.vegetabllance.data.repository.VegetableRepository
+import com.skyme32.vegetabllance.data.repository.VegetableRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

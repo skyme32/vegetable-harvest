@@ -1,9 +1,13 @@
-package com.skyme32.vegetabllance.data.api.di
+package com.skyme32.vegetabllance.data.di
 
 import android.content.Context
+import androidx.room.Room
+import androidx.work.*
 import com.skyme32.vegetabllance.data.api.datasource.RestDataSource
-import com.skyme32.vegetabllance.data.local.datasource.DBDatasource
+import com.skyme32.vegetabllance.data.local.datasource.AppDatabase
+import com.skyme32.vegetabllance.data.local.datasource.VegetableDao
 import com.skyme32.vegetabllance.util.BASE_URL
+import com.skyme32.vegetabllance.util.DATABASE_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -39,7 +43,13 @@ class DataSourceModule {
 
     @Singleton
     @Provides
-    fun dbDatasource(@ApplicationContext context: Context): DBDatasource {
-
+    fun dbDatasource(@ApplicationContext context: Context): AppDatabase {
+        return Room.databaseBuilder(context, AppDatabase::class.java, DATABASE_NAME)
+            .fallbackToDestructiveMigration()
+            .build()
     }
+
+    @Singleton
+    @Provides
+    fun vegetableDao(db: AppDatabase): VegetableDao = db.vegetableDao()
 }
