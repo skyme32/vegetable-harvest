@@ -5,6 +5,7 @@ import com.skyme32.vegetabllance.data.api.datasource.RestDataSource
 import com.skyme32.vegetabllance.data.local.datasource.VegetableDao
 import com.skyme32.vegetabllance.data.local.datasource.asDomainModel
 import com.skyme32.vegetabllance.data.local.model.VegetableSeason
+import com.skyme32.vegetabllance.data.local.model.VegetableTranslation
 import javax.inject.Inject
 
 class VegetableRepositoryImpl @Inject constructor(
@@ -12,19 +13,20 @@ class VegetableRepositoryImpl @Inject constructor(
     private val vegetableDao: VegetableDao
 ) : VegetableRepository {
 
-    override suspend fun getAllVegetables(locale: String): List<VegetableSeason> {
-        return vegetableDao.getAllVegetables(locale = locale)
+    override suspend fun getAllVegetables(locale: String): List<VegetableTranslation> {
+        return vegetableDao.getAllVegetables()
     }
 
     override suspend fun refreshVegetables() {
         try {
             dataSource.getVegetables().results.asDomainModel().forEach { vegetableTranslation ->
+                Log.i("refreshVegetables", vegetableTranslation.toString())
                 vegetableDao.insertVegetable(vegetableTranslation.vegetable)
                 vegetableDao.insertTranslation(vegetableTranslation.translation)
                 vegetableDao.insertSeason(vegetableTranslation.seasons)
             }
         } catch (err: Exception) {
-            Log.e("refreshVegetables", err.message.toString())
+            Log.e("refreshVegetablesError", err.message.toString())
         }
     }
 }

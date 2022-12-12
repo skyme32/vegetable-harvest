@@ -1,6 +1,5 @@
 package com.skyme32.vegetabllance.data.local.datasource
 
-import android.se.omapi.Session
 import com.skyme32.vegetabllance.data.api.model.Result
 import com.skyme32.vegetabllance.data.local.model.Season
 import com.skyme32.vegetabllance.data.local.model.Translation
@@ -10,7 +9,7 @@ import com.skyme32.vegetabllance.data.local.model.VegetableTranslation
 fun List<Result>.asDomainModel(): List<VegetableTranslation> {
     return map {
         VegetableTranslation(
-            Vegetable(id = it.id, type = it.type, image = it.image),
+            Vegetable(it.id, it.type, it.image),
             asDomainTranslation(it),
             asDomainSesion(it.season, it.id)
         )

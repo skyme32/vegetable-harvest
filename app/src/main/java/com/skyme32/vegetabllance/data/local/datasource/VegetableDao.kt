@@ -3,6 +3,7 @@ package com.skyme32.vegetabllance.data.local.datasource
 import androidx.room.*
 import com.skyme32.vegetabllance.data.local.model.*
 
+
 @Dao
 interface VegetableDao {
 
@@ -25,6 +26,11 @@ interface VegetableDao {
     suspend fun deleteSeason(season: Season)
 
     @Transaction
+    @Query("SELECT * FROM vegetable")
+    suspend fun getAllVegetables(): List<VegetableTranslation>
+
+    /*
+    @Transaction
     @Query("SELECT DISTINCT translation.name, " +
             "translation.description, " +
             "translation.locale, " +
@@ -34,8 +40,5 @@ interface VegetableDao {
             "WHERE vegetable.id = translation.id_vegetable " +
             "AND translation.locale = :locale")
      suspend fun getAllVegetables(locale: String): List<VegetableSeason>
-
-    @Transaction
-    @Query("SELECT * FROM vegetable")
-    suspend fun getAll(): List<VegetableTranslation>
+     */
 }

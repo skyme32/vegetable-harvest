@@ -15,8 +15,7 @@ class VegetablesViewModel @Inject constructor(
 
     fun getVegetable() {
         viewModelScope.launch {
-            val vegetable = vegetableRepository.getAllVegetables("en")
-            Log.d("marcosTest", vegetable.toString())
+            vegetableRepository.refreshVegetables()
         }
     }
 }
