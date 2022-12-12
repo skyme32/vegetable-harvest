@@ -5,12 +5,12 @@
 			"name_translations": {
 				"en": "Beans",
 				"es": "Habas",
-				"cat": "Faves"
+				"ca": "Faves"
 			},
 			"description_translations": {
 				"en": "The beans contain a significant amount of protein, complex carbohydrates, fats, fiber, potassium, vitamins and water.",
 				"es": "Las habas contienen una cantidad importante de proteínas, hidratos de carbono complejos, grasas, fibra, potasio, vitaminas y agua.",
-				"cat": "Les faves contenen una quantitat important de proteïnes, hidrats de carboni complexos, greixos, fibra, potassi, vitamines i aigua."
+				"ca": "Les faves contenen una quantitat important de proteïnes, hidrats de carboni complexos, greixos, fibra, potassi, vitamines i aigua."
 			},
 			"type": "vegetable",
 			"image": "",
@@ -22,12 +22,12 @@
 			"name_translations": {
 				"en": "Peas",
 				"es": "Guisantes",
-				"cat": "Pèsols"
+				"ca": "Pèsols"
 			},
 			"description_translations": {
 				"en": "Fresh peas are a great source of simple sugars and high in fiber and carbohydrates.",
 				"es": "Los guisantes frescos son una estupenda fuente de azúcares simples y de hidratos de carbono y ricos en fibra.",
-				"cat": "Els pèsols frescos són una estupenda font de sucres simples i d'hidrats de carboni i rics en fibra."
+				"ca": "Els pèsols frescos són una estupenda font de sucres simples i d'hidrats de carboni i rics en fibra."
 			},
 			"type": "vegetable",
 			"image": "",
@@ -39,12 +39,12 @@
 			"name_translations": {
 				"en": "Zucchini",
 				"es": "Calabacín",
-				"cat": "Carbassó"
+				"ca": "Carbassó"
 			},
 			"description_translations": {
 				"en": "Aqueous plant with only 15 kilocalories per 100 grams. There are a high content of folic acid.",
 				"es": "Planta acuosa con solo 15 kilocalorías por 100 gramos. Tiene un alto contenido en ácido fólico, vitaminas y potasio.",
-				"cat": "Planta aquosa amb només 15 quilocalories per 100 grams. Té un alt contingut en folats, vitamines i potassi."
+				"ca": "Planta aquosa amb només 15 quilocalories per 100 grams. Té un alt contingut en folats, vitamines i potassi."
 			},
 			"type": "vegetable",
 			"image": "",
@@ -56,12 +56,12 @@
 			"name_translations": {
 				"en": "Pepper",
 				"es": "Pimiento",
-				"cat": "Pebrot"
+				"ca": "Pebrot"
 			},
 			"description_translations": {
 				"en": "",
 				"es": "",
-				"cat": ""
+				"ca": ""
 			},
 			"type": "vegetable",
 			"image": "",
@@ -73,12 +73,12 @@
 			"name_translations": {
 				"en": "Eggplant",
 				"es": "Berenjena",
-				"cat": "Albergínia"
+				"ca": "Albergínia"
 			},
 			"description_translations": {
 				"en": "",
 				"es": "",
-				"cat": ""
+				"ca": ""
 			},
 			"type": "vegetable",
 			"image": "",
