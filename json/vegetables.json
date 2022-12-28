@@ -84,6 +84,23 @@
 			"image": "",
 			"season": [5, 6, 7, 8, 9, 10],
 			"cold_season": []
+		},
+		{
+			"id": 6,
+			"name_translations": {
+				"en": "esy",
+				"es": "Berenjena",
+				"ca": "Albergínia"
+			},
+			"description_translations": {
+				"en": "",
+				"es": "",
+				"ca": ""
+			},
+			"type": "vegetable",
+			"image": "",
+			"season": [5, 6, 7, 8, 9, 10],
+			"cold_season": []
 		}
 	],
 	"meta": {
