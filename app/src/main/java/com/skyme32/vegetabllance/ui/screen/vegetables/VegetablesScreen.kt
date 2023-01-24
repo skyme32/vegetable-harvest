@@ -8,6 +8,8 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -34,16 +36,17 @@ fun VegetablesScreen(
             )
         }
     ) { values ->
-        viewModel.getVegetable()
+        val vegetables by viewModel.vegetables.observeAsState(arrayListOf())
 
         LazyColumn(contentPadding = values) {
-            items(10) {
+            items(vegetables.size) { index ->
+                val vegetable = vegetables[index]
                 Post(
-                    title = "Bacon ipsum",
-                    description = "Bacon ipsum dolor amet pork shankle beef andouille ball tip. Meatball corned beef swine, strip steak bacon jerky doner tongue biltong pork loin drumstick sausage hamburger burgdoggen.",
+                    title = vegetable.name,
+                    description = vegetable.description.toString(),
                     modifier = Modifier.padding(8.dp),
-                    listMonths = arrayListOf(1,2,3,6,7,8,12),
-                    image = "https://free-images.com/md/1c45/cucumbers_vegetables_cucumber_food_2.jpg"
+                    listMonths = vegetable.seasons.map { it.month },
+                    image = vegetable.vegetable.image.toString()
                 )
             }
         }
