@@ -5,13 +5,16 @@ import android.util.Log
 import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
+import com.skyme32.vegetabllance.data.repository.VegetableRepository
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import retrofit2.HttpException
 
+@HiltWorker
 class RefreshWorker @AssistedInject constructor(
     @Assisted val context: Context,
-    @Assisted private val workerParameters: WorkerParameters
+    @Assisted private val workerParameters: WorkerParameters,
+    private val vegetableRepository: VegetableRepository
 ) : CoroutineWorker(context, workerParameters) {
 
     companion object {
@@ -20,7 +23,7 @@ class RefreshWorker @AssistedInject constructor(
 
     override suspend fun doWork(): Result {
         return try {
-            Log.d("Tatatlo", "ENTER")
+            vegetableRepository.refreshVegetables()
             Result.success()
         } catch (e: HttpException) {
             Result.failure()
