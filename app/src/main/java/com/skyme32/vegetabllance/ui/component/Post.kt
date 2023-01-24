@@ -74,10 +74,11 @@ fun Post(
 @Preview
 @Composable
 fun showPost() {
-    Post(title = "Bacon ipsum",
+    Post(
+        title = "Bacon ipsum",
         description = "Bacon ipsum dolor amet pork shankle beef andouille ball tip. Meatball corned beef swine, strip steak bacon jerky doner tongue biltong pork loin drumstick sausage hamburger burgdoggen.",
         modifier = Modifier.padding(8.dp),
-        listMonths = arrayListOf(1,2,3),
+        listMonths = arrayListOf(1, 2, 3),
         image = "https://free-images.com/sm/1c45/cucumbers_vegetables_cucumber_food_2.jpg"
     )
 }
