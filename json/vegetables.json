@@ -1,110 +1,116 @@
 {
-	"results": [
-		{
-			"id": 1,
-			"name_translations": {
-				"en": "Beans",
-				"es": "Habas",
-				"ca": "Faves"
-			},
-			"description_translations": {
-				"en": "The beans contain a significant amount of protein, complex carbohydrates, fats, fiber, potassium, vitamins and water.",
-				"es": "Las habas contienen una cantidad importante de proteínas, hidratos de carbono complejos, grasas, fibra, potasio, vitaminas y agua.",
-				"ca": "Les faves contenen una quantitat important de proteïnes, hidrats de carboni complexos, greixos, fibra, potassi, vitamines i aigua."
-			},
-			"type": "vegetable",
-			"image": "",
-			"season": [1, 2, 3],
-			"cold_season": [5, 6, 7]
-		},
-		{
-			"id": 2,
-			"name_translations": {
-				"en": "Peas",
-				"es": "Guisantes",
-				"ca": "Pèsols"
-			},
-			"description_translations": {
-				"en": "Fresh peas are a great source of simple sugars and high in fiber and carbohydrates.",
-				"es": "Los guisantes frescos son una estupenda fuente de azúcares simples y de hidratos de carbono y ricos en fibra.",
-				"ca": "Els pèsols frescos són una estupenda font de sucres simples i d'hidrats de carboni i rics en fibra."
-			},
-			"type": "vegetable",
-			"image": "",
-			"season": [1, 2, 3],
-			"cold_season": []
-		},
-		{
-			"id": 3,
-			"name_translations": {
-				"en": "Zucchini",
-				"es": "Calabacín",
-				"ca": "Carbassó"
-			},
-			"description_translations": {
-				"en": "Aqueous plant with only 15 kilocalories per 100 grams. There are a high content of folic acid.",
-				"es": "Planta acuosa con solo 15 kilocalorías por 100 gramos. Tiene un alto contenido en ácido fólico, vitaminas y potasio.",
-				"ca": "Planta aquosa amb només 15 quilocalories per 100 grams. Té un alt contingut en folats, vitamines i potassi."
-			},
-			"type": "vegetable",
-			"image": "",
-			"season": [5, 6, 7, 8, 9, 10],
-			"cold_season": []
-		},
-		{
-			"id": 4,
-			"name_translations": {
-				"en": "Pepper",
-				"es": "Pimiento",
-				"ca": "Pebrot"
-			},
-			"description_translations": {
-				"en": "",
-				"es": "",
-				"ca": ""
-			},
-			"type": "vegetable",
-			"image": "",
-			"season": [5, 6, 7, 8, 9, 10],
-			"cold_season": []
-		},
-		{
-			"id": 5,
-			"name_translations": {
-				"en": "Eggplant",
-				"es": "Berenjena",
-				"ca": "Albergínia"
-			},
-			"description_translations": {
-				"en": "",
-				"es": "",
-				"ca": ""
-			},
-			"type": "vegetable",
-			"image": "",
-			"season": [5, 6, 7, 8, 9, 10],
-			"cold_season": []
-		},
-		{
-			"id": 6,
-			"name_translations": {
-				"en": "esy",
-				"es": "Berenjena",
-				"ca": "Albergínia"
-			},
-			"description_translations": {
-				"en": "",
-				"es": "",
-				"ca": ""
-			},
-			"type": "vegetable",
-			"image": "",
-			"season": [5, 6, 7, 8, 9, 10],
-			"cold_season": []
-		}
-	],
-	"meta": {
-		"api_version": "0.1.0",
-		"generated_in": 22
-	}
+  "results": [
+    {
+      "id": 1,
+      "name_translations": {
+        "en": "Beans",
+        "es": "Habas",
+        "ca": "Faves"
+      },
+      "description_translations": {
+        "en": "The beans contain a significant amount of protein, complex carbohydrates, fats, fiber, potassium, vitamins and water.",
+        "es": "Las habas contienen una cantidad importante de proteínas, hidratos de carbono complejos, grasas, fibra, potasio, vitaminas y agua.",
+        "ca": "Les faves contenen una quantitat important de proteïnes, hidrats de carboni complexos, greixos, fibra, potassi, vitamines i aigua."
+      },
+      "title": "Beans",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/gb8f945437d793e560bf8b31ee753a867467c9b1692e554294283a57b614e2f00fb7ad17f6fe375d531750509d7a62b7b10fed8db9688de6b68411a166cd97764587f01fe9cb26f7aa721a701d9ce18cc_640.jpg",
+      "season": [4, 5],
+      "cold_season": [1, 2, 3, 6]
+    },
+    {
+      "id": 2,
+      "name_translations": {
+        "en": "Peas",
+        "es": "Guisantes",
+        "ca": "Pèsols"
+      },
+      "description_translations": {
+        "en": "Fresh peas are a great source of simple sugars and high in fiber and carbohydrates.",
+        "es": "Los guisantes frescos son una estupenda fuente de azúcares simples y de hidratos de carbono y ricos en fibra.",
+        "ca": "Els pèsols frescos són una estupenda font de sucres simples i d'hidrats de carboni i rics en fibra."
+      },
+      "title": "Peas",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g65f13f5d1965c00c9b06b7dee94aeb604be15fe59db50bf5605fc715fe6bec6ac35972b61f5fe22668fbb7b97c969b6a0b22d3a5c40fcb1db973809b96e8b19dcbf828d941ee26f93b0ebf30e253c321_640.jpg",
+      "season": [4, 5, 6],
+      "cold_season": [3, 7]
+    },
+    {
+      "id": 3,
+      "name_translations": {
+        "en": "Zucchini",
+        "es": "Calabacín",
+        "ca": "Carbassó"
+      },
+      "description_translations": {
+        "en": "Aqueous plant with only 15 kilocalories per 100 grams. There are a high content of folic acid.",
+        "es": "Planta acuosa con solo 15 kilocalorías por 100 gramos. Tiene un alto contenido en ácido fólico, vitaminas y potasio.",
+        "ca": "Planta aquosa amb només 15 quilocalories per 100 grams. Té un alt contingut en folats, vitamines i potassi."
+      },
+      "title": "Zucchini",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g81fc0b1c0df3437708ed106fcbc6b2c1674d9abf30c5daf1554defd09658763e705cc4970fa172c6dce9edecad385249485a84abbce85ee70235efdf96a2148e52f43ff3dc038244f37c5a4c7fdc92c3_640.jpg",
+      "season": [6, 7, 8],
+      "cold_season": [4, 5, 9]
+    },
+    {
+      "id": 4,
+      "name_translations": {
+        "en": "Pepper",
+        "es": "Pimiento",
+        "ca": "Pebrot"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Pepper",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/ga86595bb61cab44f9496be4d0090622b1d237a597d9dbdae15c7b9f517db0d8f4bf3bdcae800b4ead6e477f5a5d570508616f5098487ba9fefa24a5e5d6806629291d84fe0f3188693b16b6e21bc5585_640.jpg",
+      "season": [6, 7, 8, 9],
+      "cold_season": [5, 10, 11]
+    },
+    {
+      "id": 5,
+      "name_translations": {
+        "en": "Eggplant",
+        "es": "Berenjena",
+        "ca": "Albergínia"
+      },
+      "description_translations": {
+        "en": "It does not stand out for having a particular nutrient, but it provides us with fiber, especially if the skin is eaten.",
+        "es": "No destaca por tener un nutriente en especial, pero nos aporta fibra, sobre todo si se come la piel.",
+        "ca": "No destaca per tenir un nutrient en especial, però ens aporta fibra, sobretot si se'n menja la pell."
+      },
+      "title": "Eggplant",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g2e173ea9d4955d6e4e46291d501f087f34e189d16649b492c293dc0e0be4f18feebfc582addb396a89ea39cb5a7579c864817535553b7114b92c36d081f1c93f6c02ca1594b4bbd33a6ea7ffa168b6b0_640.jpg",
+      "season": [7, 8, 9],
+      "cold_season": [1, 2, 3, 4, 5, 6, 10, 11, 12]
+    },
+    {
+      "id": 6,
+      "name_translations": {
+        "en": "Chard",
+        "es": "Acelga",
+        "ca": "bleda"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Chard",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g82f3835a34c6bc8573dd2ade2a4214a02adaa957ac9aa79973d7d9497d18253e93b194b27efadbb3f28ee69c27bc1c74c9585287ca4f942df44ecdd57c04930e04fbc3df1501a70465f3cbf810d6e0c3_640.jpg",
+      "season": [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12],
+      "cold_season": [8]
+    }
+  ],
+  "meta": {
+    "api_version": "0.1.1",
+    "generated_in": 22
+  }
 }
