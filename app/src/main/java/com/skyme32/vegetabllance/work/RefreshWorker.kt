@@ -16,10 +16,6 @@ class RefreshWorker @AssistedInject constructor(
     private val vegetableRepository: VegetableRepository
 ) : CoroutineWorker(context, workerParameters) {
 
-    companion object {
-        const val WORK_NAME = "RefreshWorker"
-    }
-
     override suspend fun doWork(): Result {
         return try {
             vegetableRepository.refreshVegetables()
