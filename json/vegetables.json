@@ -95,7 +95,7 @@
       "name_translations": {
         "en": "Chard",
         "es": "Acelga",
-        "ca": "bleda"
+        "ca": "Bleda"
       },
       "description_translations": {
         "en": "",
@@ -107,6 +107,42 @@
       "image": "https://pixabay.com/get/g82f3835a34c6bc8573dd2ade2a4214a02adaa957ac9aa79973d7d9497d18253e93b194b27efadbb3f28ee69c27bc1c74c9585287ca4f942df44ecdd57c04930e04fbc3df1501a70465f3cbf810d6e0c3_640.jpg",
       "season": [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12],
       "cold_season": [8]
+    },
+    {
+      "id": 7,
+      "name_translations": {
+        "en": "Garlic",
+        "es": "Ajo",
+        "ca": "All"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Garlic",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/ga7e76ef0e3ecf03e21711129800bd60bbc1eda69de298d63e130df5c582f90a9c2b33588a52cd9fb9ba8f689fc063a9a4e2960da99f8972d6b81cb69a5c166ce4c2b514e014cb14afe9eb722804ac41a_640.jpg",
+      "season": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "cold_season": []
+    },
+    {
+      "id": 8,
+      "name_translations": {
+        "en": "Artichoke",
+        "es": "Alcachofa",
+        "ca": "Carxofa"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Artichoke",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g82b1d5b848fee48f266c1d4a138cf110ab4891f28fb44a506a9389f928439eb5d0399c5e34ec80214623fa5c6f3b6d4a6e827240e422b233d5c290a87afebb8360044e17fb0a6268cdd08aa8fb38eb33_640.jpg",
+      "season": [1, 2, 3, 4, 5, 12],
+      "cold_season": [6, 10, 11]
     }
   ],
   "meta": {
