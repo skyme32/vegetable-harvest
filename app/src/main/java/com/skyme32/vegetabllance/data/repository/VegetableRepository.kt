@@ -8,4 +8,6 @@ interface VegetableRepository {
     fun getAllVegetables(locale: String, currentMonth: Int): LiveData<List<VegetableSeason>>
 
     suspend fun refreshVegetables()
+
+    suspend fun emptyVegetables()
 }

@@ -7,7 +7,7 @@ import androidx.room.Index
 @Entity(
     tableName = "season",
     primaryKeys = ["month", "id_vegetable"],
-    indices = [Index(value = ["month", "id_vegetable"], unique = true)]
+    indices = [Index(value = ["month", "id_vegetable", "type"], unique = true)]
 )
 data class Season(
 
@@ -16,4 +16,7 @@ data class Season(
 
     @ColumnInfo(name = "id_vegetable")
     val idVegetable: Int,
+
+    @ColumnInfo(name = "type")
+    val type: Boolean,
 )

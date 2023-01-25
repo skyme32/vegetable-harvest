@@ -11,7 +11,7 @@ fun List<Result>.asDomainModel(): List<VegetableTranslation> {
         VegetableTranslation(
             Vegetable(it.id, it.type, it.image),
             asDomainTranslation(it),
-            asDomainSesion(it.season, it.id)
+            asDomainSesion(it, it.id)
         )
     }
 }
@@ -39,8 +39,14 @@ private fun asDomainTranslation(result: Result): List<Translation> {
     )
 }
 
-private fun asDomainSesion(seasons: List<Int>, id: Int): List<Season> {
-    return seasons.asSequence().map {
-        Season(it, id)
+private fun asDomainSesion(result: Result, id: Int): List<Season> {
+    val season = result.season.asSequence().map {
+        Season(it, id, true)
     }.toList()
+
+    val coldSeason = result.cold_season.asSequence().map {
+        Season(it, id, false)
+    }.toList()
+
+    return season.plus(coldSeason).sortedBy { season -> season.month }
 }

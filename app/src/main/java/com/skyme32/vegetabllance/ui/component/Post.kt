@@ -7,12 +7,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.capitalize
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import com.google.accompanist.flowlayout.FlowRow
 import com.google.accompanist.flowlayout.SizeMode
+import com.skyme32.vegetabllance.data.local.model.Season
+import com.skyme32.vegetabllance.ui.theme.Green200
+import com.skyme32.vegetabllance.ui.theme.Green500
 import com.skyme32.vegetabllance.util.parseMonths
+import java.util.*
+import kotlin.random.Random
 
 @ExperimentalMaterial3Api
 @Composable
@@ -20,7 +26,7 @@ fun Post(
     title: String,
     description: String,
     image: String,
-    listMonths: List<Int>,
+    listSeason: List<Season>,
     modifier: Modifier = Modifier
 ) {
     Card(
@@ -44,12 +50,14 @@ fun Post(
             modifier = Modifier.padding(16.dp)
         ) {
             Text(
-                text = title,
+                text = title.lowercase()
+                    .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString() },
                 style = MaterialTheme.typography.titleLarge
             )
             Spacer(modifier = Modifier.height(8.dp))
             Text(
-                text = description,
+                text = description.lowercase()
+                    .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString() },
                 style = MaterialTheme.typography.bodyMedium
             )
             Spacer(modifier = Modifier.height(8.dp))
@@ -58,11 +66,8 @@ fun Post(
                 mainAxisSpacing = 8.dp,
                 mainAxisSize = SizeMode.Wrap
             ) {
-                listMonths.forEach { month ->
-                    AssistChip(
-                        onClick = { },
-                        label = { Text(text = parseMonths(month, LocalContext.current)) }
-                    )
+                listSeason.forEach { season ->
+                    Chip(month = season.month, type = season.type)
                 }
 
             }
@@ -71,14 +76,24 @@ fun Post(
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
-@Preview
 @Composable
-fun showPost() {
-    Post(
-        title = "Bacon ipsum",
-        description = "Bacon ipsum dolor amet pork shankle beef andouille ball tip. Meatball corned beef swine, strip steak bacon jerky doner tongue biltong pork loin drumstick sausage hamburger burgdoggen.",
-        modifier = Modifier.padding(8.dp),
-        listMonths = arrayListOf(1, 2, 3),
-        image = "https://free-images.com/sm/1c45/cucumbers_vegetables_cucumber_food_2.jpg"
+fun Chip(month: Int, type: Boolean) {
+    AssistChip(
+        onClick = { },
+        label = {
+            Text(
+                text = parseMonths(month, LocalContext.current),
+                color = if (type) {
+                    Green500
+                } else {
+                    MaterialTheme.colorScheme.onSurface
+                }
+            )
+        },
+        colors = if (type) {
+            AssistChipDefaults.assistChipColors(containerColor = Green200)
+        } else {
+            AssistChipDefaults.assistChipColors(containerColor = MaterialTheme.colorScheme.onBackground)
+        }
     )
 }

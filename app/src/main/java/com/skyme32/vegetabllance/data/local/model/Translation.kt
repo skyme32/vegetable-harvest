@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 
 @Entity(
     tableName = "translation",
-    indices = [Index(value = ["name", "description"], unique = true)]
+    indices = [Index(value = ["locale", "id_vegetable"], unique = true)]
 )
 data class Translation(
 

@@ -16,14 +16,14 @@ interface VegetableDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertSeason(season: List<Season>)
 
-    @Delete
-    suspend fun deleteVegetable(vegetable: Vegetable)
+    @Query("DELETE FROM vegetable")
+    suspend fun deleteVegetable()
 
-    @Delete
-    suspend fun deleteTranslation(translation: Translation)
+    @Query("DELETE FROM translation")
+    suspend fun deleteTranslation()
 
-    @Delete
-    suspend fun deleteSeason(season: Season)
+    @Query("DELETE FROM season")
+    suspend fun deleteSeason()
 
     @Transaction
     @Query(

@@ -48,7 +48,7 @@ fun VegetablesScreen(
                     title = vegetable.name,
                     description = vegetable.description.toString(),
                     modifier = Modifier.padding(8.dp),
-                    listMonths = vegetable.seasons.map { it.month },
+                    listSeason = vegetable.seasons,
                     image = vegetable.vegetable.image.toString()
                 )
             }

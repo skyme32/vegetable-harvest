@@ -7,5 +7,6 @@ data class Result(
     val image: String,
     val name_translations: NameTranslations,
     val season: List<Int>,
-    val type: String
+    val type: String,
+    val title: String
 )

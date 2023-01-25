@@ -28,4 +28,12 @@ class VegetableRepositoryImpl @Inject constructor(
             Log.e("refreshVegetablesError", err.message.toString())
         }
     }
+
+    override suspend fun emptyVegetables() {
+        vegetableDao.deleteVegetable()
+        vegetableDao.deleteTranslation()
+        vegetableDao.deleteSeason()
+    }
+
+
 }
