@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.skyme32.vegetabllance.data.local.model.VegetableSeason
 import com.skyme32.vegetabllance.data.repository.VegetableRepository
+import com.skyme32.vegetabllance.util.curentMonth
 import com.skyme32.vegetabllance.util.parseLanguage
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
@@ -22,6 +23,6 @@ class VegetablesViewModel @Inject constructor(
     }
 
     val vegetables: LiveData<List<VegetableSeason>> by lazy {
-        vegetableRepository.getAllVegetables(parseLanguage())
+        vegetableRepository.getAllVegetables(parseLanguage(), curentMonth())
     }
 }

@@ -13,8 +13,8 @@ class VegetableRepositoryImpl @Inject constructor(
     private val vegetableDao: VegetableDao
 ) : VegetableRepository {
 
-    override fun getAllVegetables(locale: String): LiveData<List<VegetableSeason>> {
-        return vegetableDao.getAllVegetables(locale)
+    override fun getAllVegetables(locale: String, currentMonth: Int): LiveData<List<VegetableSeason>> {
+        return vegetableDao.getAllVegetables(locale, currentMonth)
     }
 
     override suspend fun refreshVegetables() {

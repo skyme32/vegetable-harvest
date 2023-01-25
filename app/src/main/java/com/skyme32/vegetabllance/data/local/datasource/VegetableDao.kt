@@ -34,8 +34,10 @@ interface VegetableDao {
                 "FROM vegetable, translation " +
                 "JOIN season ON vegetable.id = season.id_vegetable " +
                 "WHERE vegetable.id = translation.id_vegetable " +
-                "AND translation.locale = :locale"
+                "AND translation.locale = :locale " +
+                "AND season.month = :currentMonth " +
+                "ORDER BY translation.name ASC"
     )
-    fun getAllVegetables(locale: String): LiveData<List<VegetableSeason>>
+    fun getAllVegetables(locale: String, currentMonth: Int): LiveData<List<VegetableSeason>>
 
 }
