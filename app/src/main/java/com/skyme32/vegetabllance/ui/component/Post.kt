@@ -93,7 +93,12 @@ fun Chip(month: Int, type: Boolean) {
         colors = if (type) {
             AssistChipDefaults.assistChipColors(containerColor = Green200)
         } else {
-            AssistChipDefaults.assistChipColors(containerColor = MaterialTheme.colorScheme.onBackground)
-        }
+            AssistChipDefaults.assistChipColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+        },
+        border = if (type) {
+            AssistChipDefaults.assistChipBorder(borderColor = Green500)
+        } else {
+            AssistChipDefaults.assistChipBorder(borderColor = MaterialTheme.colorScheme.onSurface)
+        },
     )
 }
