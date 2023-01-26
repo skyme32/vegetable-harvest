@@ -14,7 +14,7 @@
       },
       "title": "Beans",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/gb8f945437d793e560bf8b31ee753a867467c9b1692e554294283a57b614e2f00fb7ad17f6fe375d531750509d7a62b7b10fed8db9688de6b68411a166cd97764587f01fe9cb26f7aa721a701d9ce18cc_640.jpg",
+      "image": "https://pixabay.com/get/g0710a4550fed2234451a1ace99f84341a2472e7c7cf7b47f30028cd868f0498c4b6d699b83320e8ca82543dd66fd2be18edce11159d78d4f334b533907369825aadf2e97972f169056461449a51a61f1_640.jpg",
       "season": [4, 5],
       "cold_season": [1, 2, 3, 6]
     },
@@ -104,7 +104,7 @@
       },
       "title": "Chard",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g82f3835a34c6bc8573dd2ade2a4214a02adaa957ac9aa79973d7d9497d18253e93b194b27efadbb3f28ee69c27bc1c74c9585287ca4f942df44ecdd57c04930e04fbc3df1501a70465f3cbf810d6e0c3_640.jpg",
+      "image": "https://pixabay.com/get/g1acb8eb905277612b76103e6567d90b7813b67925402769ed853a197028ef2137f6faeb65f95288026d625b1428ffb80aee6209b1836062bd7a9a5a127453975df01bb4513b90345f52c9627f234f0c9_640.jpg",
       "season": [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12],
       "cold_season": [8]
     },
@@ -143,10 +143,82 @@
       "image": "https://pixabay.com/get/g82b1d5b848fee48f266c1d4a138cf110ab4891f28fb44a506a9389f928439eb5d0399c5e34ec80214623fa5c6f3b6d4a6e827240e422b233d5c290a87afebb8360044e17fb0a6268cdd08aa8fb38eb33_640.jpg",
       "season": [1, 2, 3, 4, 5, 12],
       "cold_season": [6, 10, 11]
+    },
+    {
+      "id": 9,
+      "name_translations": {
+        "en": "Celery",
+        "es": "Apio",
+        "ca": "Api"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Celery",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g88e537e8cbb94aa418d9b3381d86e24469310173462849678f28ce25dcb8824ef0258d4a1064b731a6693351ea6f84dcd81eb95dce9413102ba6beeebd1f19c50dd66720364fb7f1732c8b3de7caeb89_640.jpg",
+      "season": [1, 2, 3, 11, 12],
+      "cold_season": [4, 5, 9, 10]
+    },
+    {
+      "id": 10,
+      "name_translations": {
+        "en": "Broccoli",
+        "es": "Brócoli",
+        "ca": "Bròquil"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Broccoli",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g91c90c1e153b8bee1bcd559798d309f644aeb3b53f60a3bba7d7795a2fef5686f11a90fa5891f51cfe60e2277fed09fd9f16bb88b5daf266df9a212fbd84cf531cea070d36cbda0bd6e5994711f703ec_640.jpg",
+      "season": [1, 2, 3, 4, 11, 12],
+      "cold_season": [5, 6, 9, 10]
+    },
+    {
+      "id": 11,
+      "name_translations": {
+        "en": "Pumpkin",
+        "es": "Calabaza",
+        "ca": "Carbassa"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Pumpkin",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g311ea54c9b8d1b2926a4e7407266a101a398d9229a01d7402e4dd0d5cabd9d14f248a2692b3b82aa7ebcd884679e5754155a3757c5d5f98a1fdee88017258b03a5dc9007f41350234dd34775360ad0de_640.jpg",
+      "season": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "cold_season": [3, 12]
+    },
+    {
+      "id": 12,
+      "name_translations": {
+        "en": "Thistle",
+        "es": "Cardo",
+        "ca": "Cardó"
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "Thistle",
+      "type": "vegetable",
+      "image": "https://pixabay.com/get/g33275fc83b451bb77848eff0e1eb3c3736f381520bc2c07149f7ca7919d689c7f323891973d016129912c95e521cccfa3ae9b17c49a5d13a2a96e56403f66142d588b097c6effa5bff5507e8ea0ac593_640.jpg",
+      "season": [1, 11, 12],
+      "cold_season": [2, 10]
     }
   ],
   "meta": {
-    "api_version": "0.1.1",
+    "api_version": "0.1.2",
     "generated_in": 22
   }
 }
