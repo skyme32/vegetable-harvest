@@ -14,9 +14,9 @@
       },
       "title": "Beans",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g0710a4550fed2234451a1ace99f84341a2472e7c7cf7b47f30028cd868f0498c4b6d699b83320e8ca82543dd66fd2be18edce11159d78d4f334b533907369825aadf2e97972f169056461449a51a61f1_640.jpg",
-      "season": [4, 5],
-      "cold_season": [1, 2, 3, 6]
+      "image": "",
+      "season": [3, 4, 5],
+      "cold_season": [1, 2, 6]
     },
     {
       "id": 2,
@@ -32,7 +32,7 @@
       },
       "title": "Peas",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g65f13f5d1965c00c9b06b7dee94aeb604be15fe59db50bf5605fc715fe6bec6ac35972b61f5fe22668fbb7b97c969b6a0b22d3a5c40fcb1db973809b96e8b19dcbf828d941ee26f93b0ebf30e253c321_640.jpg",
+      "image": "",
       "season": [4, 5, 6],
       "cold_season": [3, 7]
     },
@@ -50,7 +50,7 @@
       },
       "title": "Zucchini",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g81fc0b1c0df3437708ed106fcbc6b2c1674d9abf30c5daf1554defd09658763e705cc4970fa172c6dce9edecad385249485a84abbce85ee70235efdf96a2148e52f43ff3dc038244f37c5a4c7fdc92c3_640.jpg",
+      "image": "",
       "season": [6, 7, 8],
       "cold_season": [4, 5, 9]
     },
@@ -62,13 +62,13 @@
         "ca": "Pebrot"
       },
       "description_translations": {
-        "en": "",
-        "es": "",
-        "ca": ""
+        "en": "The pepper is a vegetable with a low energy content, where the most abundant component is water, followed by carbohydrates, and its protein content is low. They are a good source of vitamin C and beta-carotene, which give them antioxidant power.",
+        "es": "El pimiento es una hortaliza de bajo contenido energético, donde el componente más abundante es el agua, seguida de los hidratos de carbono, y su contenido en proteínas es bajo. Son una buena fuente de vitamina C y beta carotenos, componentes que le otorgan poder antioxidante.",
+        "ca": "El pebrot és una hortalissa de baix contingut energètic, on el component més abundant és l’aigua, seguida dels hidrats de carboni, i el seu contingut en proteïnes és baix. Són una bona font de vitamina C i beta carotens, components que li atorguen poder antioxidant."
       },
       "title": "Pepper",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/ga86595bb61cab44f9496be4d0090622b1d237a597d9dbdae15c7b9f517db0d8f4bf3bdcae800b4ead6e477f5a5d570508616f5098487ba9fefa24a5e5d6806629291d84fe0f3188693b16b6e21bc5585_640.jpg",
+      "image": "",
       "season": [6, 7, 8, 9],
       "cold_season": [5, 10, 11]
     },
@@ -86,7 +86,7 @@
       },
       "title": "Eggplant",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g2e173ea9d4955d6e4e46291d501f087f34e189d16649b492c293dc0e0be4f18feebfc582addb396a89ea39cb5a7579c864817535553b7114b92c36d081f1c93f6c02ca1594b4bbd33a6ea7ffa168b6b0_640.jpg",
+      "image": "",
       "season": [7, 8, 9],
       "cold_season": [1, 2, 3, 4, 5, 6, 10, 11, 12]
     },
@@ -98,13 +98,13 @@
         "ca": "Bleda"
       },
       "description_translations": {
-        "en": "",
-        "es": "",
-        "ca": ""
+        "en": "It contains essential nutrients for our body, such as calcium, potassium, or iron and vitamins C and A. It has purifying and antioxidant properties. It contains a lot of fiber and very few calories.",
+        "es": "Contiene nutrientes esenciales para nuestro organismo como calcio, potasio o hierro y vitaminas C y A. Tiene propiedades depurativas y antioxidantes. Contiene mucha fibra y muy pocas calorías.",
+        "ca": "Conté nutrients fonamentals pel nostre organisme, com el calci, el potassi o el ferro i les vitamines C i A. Té propietats depuratives i antioxidants. Conté molta fibra i molt poques calories."
       },
       "title": "Chard",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g1acb8eb905277612b76103e6567d90b7813b67925402769ed853a197028ef2137f6faeb65f95288026d625b1428ffb80aee6209b1836062bd7a9a5a127453975df01bb4513b90345f52c9627f234f0c9_640.jpg",
+      "image": "",
       "season": [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12],
       "cold_season": [8]
     },
@@ -116,13 +116,13 @@
         "ca": "All"
       },
       "description_translations": {
-        "en": "",
-        "es": "",
-        "ca": ""
+        "en": "It is a vegetable of the whole year since it blooms between the end of spring and the beginning of summer. It contains small amounts of vitamins (A, B1, B3, B6, C) and mineral salts (iron, silica, sulphur, iodine). The main positive effects are the prevention of deterioration of the circulatory system and loss of appetite.",
+        "es": "Es una hortaliza de todo el año, ya que florece entre finales de primavera y principios de verano. Contiene pequeñas cantidades de vitaminas (A, B1, B3, B6, C) y sales minerales (hierro, sílice, azufre, yodo). Los principales efectos positivos son la prevención del deterioro del aparato circulatorio y la pérdida de apetito.",
+        "ca": "És una hortalissa de tot l'any, ja que floreix entre finals de primavera i començaments d'estiu. Conté petites quantitats de vitamines (A, B1, B3, B6, C) i sals minerals (ferro, sílice, sofre, iode). Els principals efectes positius són la prevenció de la deterioració de l'aparell circulatori i la pèrdua de gana."
       },
       "title": "Garlic",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/ga7e76ef0e3ecf03e21711129800bd60bbc1eda69de298d63e130df5c582f90a9c2b33588a52cd9fb9ba8f689fc063a9a4e2960da99f8972d6b81cb69a5c166ce4c2b514e014cb14afe9eb722804ac41a_640.jpg",
+      "image": "",
       "season": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "cold_season": []
     },
@@ -134,13 +134,13 @@
         "ca": "Carxofa"
       },
       "description_translations": {
-        "en": "",
-        "es": "",
-        "ca": ""
+        "en": "It is rich in water, carbohydrates and low in calories. In relation to the rest of the vegetables, it is one of the ones that contains more fiber, in addition to an average composition of proteins and negligible fat.",
+        "es": "Es rico en agua, hidratos de carbono y bajo en calorías. En relación al resto de hortalizas, es una de las que contiene más fibra, además de una composición media de proteínas y grasa insignificante.",
+        "ca": "És rica en aigua, hidrats de carboni i baixa en calories. En relació amb altres verdures, és de les que més fibra conté, a més d’una composició mitjana de proteïnes i insignificant de greixos."
       },
       "title": "Artichoke",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g82b1d5b848fee48f266c1d4a138cf110ab4891f28fb44a506a9389f928439eb5d0399c5e34ec80214623fa5c6f3b6d4a6e827240e422b233d5c290a87afebb8360044e17fb0a6268cdd08aa8fb38eb33_640.jpg",
+      "image": "",
       "season": [1, 2, 3, 4, 5, 12],
       "cold_season": [6, 10, 11]
     },
@@ -152,13 +152,13 @@
         "ca": "Api"
       },
       "description_translations": {
-        "en": "",
-        "es": "",
-        "ca": ""
+        "en": "Celery is characterized by a marked spicy, intense, aromatic and exotic flavor. The benefits and properties of celery are related to cleansing.",
+        "es": "El apio está caracterizado por un marcado sabor especiado, intenso, aromático y exótico. Los beneficios y propiedades del apio están relacionados con la depuración.",
+        "ca": "L'api està caracteritzat per un marcat sabor especiat, intens, aromàtic i exòtic. Els beneficis i les propietats de l'api estan relacionats amb la depuració."
       },
       "title": "Celery",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g88e537e8cbb94aa418d9b3381d86e24469310173462849678f28ce25dcb8824ef0258d4a1064b731a6693351ea6f84dcd81eb95dce9413102ba6beeebd1f19c50dd66720364fb7f1732c8b3de7caeb89_640.jpg",
+      "image": "",
       "season": [1, 2, 3, 11, 12],
       "cold_season": [4, 5, 9, 10]
     },
@@ -176,7 +176,7 @@
       },
       "title": "Broccoli",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g91c90c1e153b8bee1bcd559798d309f644aeb3b53f60a3bba7d7795a2fef5686f11a90fa5891f51cfe60e2277fed09fd9f16bb88b5daf266df9a212fbd84cf531cea070d36cbda0bd6e5994711f703ec_640.jpg",
+      "image": "",
       "season": [1, 2, 3, 4, 11, 12],
       "cold_season": [5, 6, 9, 10]
     },
@@ -194,7 +194,7 @@
       },
       "title": "Pumpkin",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g311ea54c9b8d1b2926a4e7407266a101a398d9229a01d7402e4dd0d5cabd9d14f248a2692b3b82aa7ebcd884679e5754155a3757c5d5f98a1fdee88017258b03a5dc9007f41350234dd34775360ad0de_640.jpg",
+      "image": "",
       "season": [4, 5, 6, 7, 8, 9, 10, 11, 12],
       "cold_season": [3, 12]
     },
@@ -212,13 +212,31 @@
       },
       "title": "Thistle",
       "type": "vegetable",
-      "image": "https://pixabay.com/get/g33275fc83b451bb77848eff0e1eb3c3736f381520bc2c07149f7ca7919d689c7f323891973d016129912c95e521cccfa3ae9b17c49a5d13a2a96e56403f66142d588b097c6effa5bff5507e8ea0ac593_640.jpg",
+      "image": "",
       "season": [1, 11, 12],
       "cold_season": [2, 10]
+    },
+    {
+      "id": ,
+      "name_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "description_translations": {
+        "en": "",
+        "es": "",
+        "ca": ""
+      },
+      "title": "",
+      "type": "vegetable",
+      "image": "",
+      "season": [],
+      "cold_season": []
     }
   ],
   "meta": {
-    "api_version": "0.1.2",
-    "generated_in": 22
+    "api_version": "0.1.3",
+    "generated_in": 23
   }
 }
