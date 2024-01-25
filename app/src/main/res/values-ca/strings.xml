@@ -2,7 +2,29 @@
 <resources>
     <string name="app_name">Vegetabllance</string>
 
-    <!-- MONTHS -->
+    <!-- Vegetables -->
+    <string name="eggplant">eggplant</string>
+    <string name="zucchini">zucchini</string>
+    <string name="tomatoes">tomatoes</string>
+    <string name="peas">peas</string>
+    <string name="beans">beans</string>
+    <string name="pepper">pepper</string>
+    <string name="chard">chard</string>
+    <string name="garlic">garlic</string>
+    <string name="artichoke">artichoke</string>
+    <string name="broccoli">broccoli</string>
+    <string name="celery">celery</string>
+    <string name="pumpkin">pumpkin</string>
+    <string name="onion">onion</string>
+    <string name="thistle">thistle</string>
+    <string name="red_cabbage">red cabbage</string>
+    <string name="cauliflower">cauliflower</string>
+    <string name="endive">endive</string>
+
+    <!-- Fruits -->
+    <string name="avocado">avocado</string>
+
+    <!-- Months -->
     <string name="january">Gen</string>
     <string name="february">Feb</string>
     <string name="march">Mar</string>

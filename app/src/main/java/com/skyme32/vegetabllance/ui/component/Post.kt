@@ -7,8 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.capitalize
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import com.google.accompanist.flowlayout.FlowRow
@@ -18,7 +16,6 @@ import com.skyme32.vegetabllance.ui.theme.Green200
 import com.skyme32.vegetabllance.ui.theme.Green500
 import com.skyme32.vegetabllance.util.parseMonths
 import java.util.*
-import kotlin.random.Random
 
 @ExperimentalMaterial3Api
 @Composable
