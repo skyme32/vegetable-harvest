@@ -1,12 +1,9 @@
 package com.skyme32.vegetabllance.util
 
-import android.annotation.SuppressLint
 import android.content.Context
-import android.os.Build
 import com.skyme32.vegetabllance.R
 import java.time.LocalDate
-import java.util.*
-import java.text.SimpleDateFormat;
+import java.util.Locale
 
 fun parseMonths(month: Int, context: Context): String {
     Locale.getDefault().displayLanguage;
@@ -27,21 +24,8 @@ fun parseMonths(month: Int, context: Context): String {
     }
 }
 
-fun parseLanguage(): String {
-    return when (Locale.getDefault().language.lowercase()) {
-        "es" -> "es"
-        "ca" -> "ca"
-        else -> "en"
-    }
-}
-
-@SuppressLint("SimpleDateFormat")
 fun curentMonth(): Int {
-    return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-        LocalDate.now().month.value
-    } else {
-        SimpleDateFormat("M").format(Date()).toInt()
-    }
+    return LocalDate.now().month.value
 }
 
 

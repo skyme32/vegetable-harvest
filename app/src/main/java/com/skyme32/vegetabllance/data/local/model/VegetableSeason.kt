@@ -8,10 +8,6 @@ data class VegetableSeason(
     @Embedded
     val vegetable: Vegetable,
 
-    val name: String,
-    val description: String?,
-    val locale: String?,
-
     @Relation(
         parentColumn = "id",
         entityColumn = "id_vegetable"

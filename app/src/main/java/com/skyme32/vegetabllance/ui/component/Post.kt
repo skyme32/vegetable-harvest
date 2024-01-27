@@ -1,14 +1,17 @@
 package com.skyme32.vegetabllance.ui.component
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.capitalize
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import com.google.accompanist.flowlayout.FlowRow
@@ -17,10 +20,8 @@ import com.skyme32.vegetabllance.data.local.model.Season
 import com.skyme32.vegetabllance.ui.theme.Green200
 import com.skyme32.vegetabllance.ui.theme.Green500
 import com.skyme32.vegetabllance.util.parseMonths
-import java.util.*
-import kotlin.random.Random
+import java.util.Locale
 
-@ExperimentalMaterial3Api
 @Composable
 fun Post(
     title: String,
@@ -75,7 +76,6 @@ fun Post(
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Chip(month: Int, type: Boolean) {
     AssistChip(
