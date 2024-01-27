@@ -1,10 +1,7 @@
 package com.skyme32.vegetabllance.data.local.datasource
-
-import com.skyme32.vegetabllance.data.api.model.Result
+/*
 import com.skyme32.vegetabllance.data.local.model.Season
-import com.skyme32.vegetabllance.data.local.model.Translation
 import com.skyme32.vegetabllance.data.local.model.Vegetable
-import com.skyme32.vegetabllance.data.local.model.VegetableTranslation
 
 fun List<Result>.asDomainModel(): List<VegetableTranslation> {
     return map {
@@ -50,3 +47,4 @@ private fun asDomainSesion(result: Result, id: Int): List<Season> {
 
     return season.plus(coldSeason).sortedBy { season -> season.month }
 }
+*/

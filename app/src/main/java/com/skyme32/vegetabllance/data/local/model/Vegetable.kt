@@ -11,13 +11,12 @@ import androidx.room.PrimaryKey
 )
 data class Vegetable(
 
-    @PrimaryKey(autoGenerate = false)
-    @ColumnInfo(name = "id")
+    @PrimaryKey
     val id: Int,
 
     @ColumnInfo(name = "type")
-    val type: String?,
+    val type: Boolean?,
 
-    @ColumnInfo(name = "image")
-    val image: String?,
+    @ColumnInfo(name = "name")
+    val name: String?,
 )

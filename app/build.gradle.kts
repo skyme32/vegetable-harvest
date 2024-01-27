@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    kotlin("kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -79,4 +81,8 @@ dependencies {
     // Room
     implementation( "androidx.room:room-runtime:2.6.1")
     implementation( "androidx.room:room-ktx:2.6.1")
+
+    // Hilt (dependencies inject)
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
 }
