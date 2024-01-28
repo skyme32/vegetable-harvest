@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Vegetabllance</string>
+    <string name="vegetable">vegetal</string>
+    <string name="fruit">fruita</string>
 
     <!-- Vegetables -->
     <string name="eggplant">eggplant</string>

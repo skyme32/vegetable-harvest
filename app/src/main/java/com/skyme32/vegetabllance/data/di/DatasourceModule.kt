@@ -28,13 +28,10 @@ class DataSourceModule {
 
     @Singleton
     @Provides
-    fun dbDatasource(
-        @ApplicationContext context: Context,
-        provider: Provider<VegetableDao>
-    ): AppDatabase {
+    fun dbDatasource(@ApplicationContext context: Context): AppDatabase {
         return Room.databaseBuilder(context, AppDatabase::class.java, DATABASE_NAME)
             .fallbackToDestructiveMigration()
-            .addCallback(VegetableCallBack(provider))
+            .createFromAsset("database/myapp.db")
             .build()
     }
 

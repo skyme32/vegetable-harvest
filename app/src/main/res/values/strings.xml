@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Vegetabllance</string>
+    <string name="vegetable">vegetable</string>
+    <string name="fruit">fruit</string>
 
     <!-- Vegetables -->
     <string name="eggplant">eggplant</string>

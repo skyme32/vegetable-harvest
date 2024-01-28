@@ -11,7 +11,6 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import javax.inject.Singleton
 
-
 @Database(
     entities = [
         Vegetable::class,
