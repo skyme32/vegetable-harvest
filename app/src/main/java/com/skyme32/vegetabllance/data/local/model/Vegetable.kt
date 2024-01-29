@@ -2,12 +2,10 @@ package com.skyme32.vegetabllance.data.local.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
-import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
     tableName = "vegetable",
-    indices = [Index(value = ["id"], unique = true)]
 )
 data class Vegetable(
 
@@ -15,8 +13,11 @@ data class Vegetable(
     val id: Int,
 
     @ColumnInfo(name = "type")
-    val type: Boolean?,
+    val type: Boolean,
 
     @ColumnInfo(name = "name")
-    val name: String?,
+    val name: String,
+
+    @ColumnInfo(name = "image")
+    val image: Int,
 )

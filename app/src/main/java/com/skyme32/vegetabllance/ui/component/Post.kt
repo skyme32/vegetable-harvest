@@ -12,8 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import coil.compose.rememberAsyncImagePainter
 import com.google.accompanist.flowlayout.FlowRow
 import com.google.accompanist.flowlayout.SizeMode
 import com.skyme32.vegetabllance.data.local.model.Season
@@ -26,7 +26,7 @@ import java.util.Locale
 fun Post(
     title: String,
     description: String,
-    image: String,
+    image: Int,
     listSeason: List<Season>,
     modifier: Modifier = Modifier
 ) {
@@ -38,10 +38,8 @@ fun Post(
         shape = MaterialTheme.shapes.large
     ) {
         Image(
-            painter = rememberAsyncImagePainter(
-                model = image
-            ),
-            contentDescription = null,
+            painter = painterResource(image),
+            contentDescription = title,
             modifier = Modifier
                 .clip(MaterialTheme.shapes.large)
                 .fillMaxWidth()
@@ -70,7 +68,6 @@ fun Post(
                 listSeason.forEach { season ->
                     Chip(month = season.month, type = season.type)
                 }
-
             }
         }
     }
