@@ -6,7 +6,6 @@ import java.time.LocalDate
 import java.util.Locale
 
 fun parseMonths(month: Int, context: Context): String {
-    Locale.getDefault().displayLanguage;
     return when (month) {
         1 -> context.resources.getString(R.string.january)
         2 -> context.resources.getString(R.string.february)
@@ -22,10 +21,6 @@ fun parseMonths(month: Int, context: Context): String {
         12 -> context.resources.getString(R.string.december)
         else -> context.resources.getString(R.string.na)
     }
-}
-
-fun curentMonth(): Int {
-    return LocalDate.now().month.value
 }
 
 
