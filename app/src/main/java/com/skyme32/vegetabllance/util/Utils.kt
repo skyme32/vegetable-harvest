@@ -2,7 +2,6 @@ package com.skyme32.vegetabllance.util
 
 import android.content.Context
 import com.skyme32.vegetabllance.R
-import java.time.LocalDate
 import java.util.Locale
 
 fun parseMonths(month: Int, context: Context): String {
@@ -23,9 +22,3 @@ fun parseMonths(month: Int, context: Context): String {
         else -> context.resources.getString(R.string.na)
     }
 }
-
-fun curentMonth(): Int {
-    return LocalDate.now().month.value
-}
-
-
