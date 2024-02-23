@@ -21,6 +21,18 @@
     <string name="red_cabbage">red cabbage</string>
     <string name="cauliflower">cauliflower</string>
     <string name="endive">endive</string>
+    <string name="curly_endive">curly endive</string>
+    <string name="green_asparagus">green asparagus</string>
+    <string name="spinach">spinach</string>
+    <string name="green_bean">green bean</string>
+    <string name="lettuce">lettuce</string>
+    <string name="turnip">turnip</string>
+    <string name="cucumber">cucumber</string>
+    <string name="leek">leek</string>
+    <string name="radish">radish</string>
+    <string name="beet">beet</string>
+    <string name="cabbage">cabbage</string>
+    <string name="carrot">carrot</string>
 
     <!-- Fruits -->
     <string name="avocado">avocado</string>

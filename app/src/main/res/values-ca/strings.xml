@@ -5,23 +5,35 @@
     <string name="fruit">fruita</string>
 
     <!-- Vegetables -->
-    <string name="eggplant">eggplant</string>
-    <string name="zucchini">zucchini</string>
-    <string name="tomatoes">tomatoes</string>
-    <string name="peas">peas</string>
-    <string name="beans">beans</string>
-    <string name="pepper">pepper</string>
-    <string name="chard">chard</string>
-    <string name="garlic">garlic</string>
-    <string name="artichoke">artichoke</string>
-    <string name="broccoli">broccoli</string>
-    <string name="celery">celery</string>
-    <string name="pumpkin">pumpkin</string>
-    <string name="onion">onion</string>
-    <string name="thistle">thistle</string>
-    <string name="red_cabbage">red cabbage</string>
-    <string name="cauliflower">cauliflower</string>
-    <string name="endive">endive</string>
+    <string name="eggplant">albergínia</string>
+    <string name="zucchini">carbassó</string>
+    <string name="tomatoes">tomàquets</string>
+    <string name="peas">pèsols</string>
+    <string name="beans">fesols</string>
+    <string name="pepper">pebre</string>
+    <string name="chard">bleda</string>
+    <string name="garlic">all</string>
+    <string name="artichoke">carxofa</string>
+    <string name="broccoli">bròquil</string>
+    <string name="celery">api</string>
+    <string name="pumpkin">carbassa</string>
+    <string name="onion">ceba</string>
+    <string name="thistle">car</string>
+    <string name="red_cabbage">col vermella</string>
+    <string name="cauliflower">coliflor</string>
+    <string name="endive">escarola</string>
+    <string name="curly_endive">escarola arrissada</string>
+    <string name="green_asparagus">espàrrecs verds</string>
+    <string name="spinach">espinacs</string>
+    <string name="green_bean">mongeta verda</string>
+    <string name="lettuce">enciam</string>
+    <string name="turnip">nap</string>
+    <string name="cucumber">cogombre</string>
+    <string name="leek">porro</string>
+    <string name="radish">rave</string>
+    <string name="beet">remolatxa</string>
+    <string name="cabbage">col</string>
+    <string name="carrot">pastanaga</string>
 
     <!-- Fruits -->
     <string name="avocado">avocado</string>
