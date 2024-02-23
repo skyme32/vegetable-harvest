@@ -10,7 +10,11 @@ class VegetableRepositoryImpl @Inject constructor(
 ) : VegetableRepository {
 
     override fun getMonthVegetables(currentMonth: Int): LiveData<List<VegetableSeason>> {
-        return vegetableDao.getAllVegetables()
+        return vegetableDao.getMonthVegetables(currentMonth)
+    }
+
+    override fun getMonthVegetablesSeson(currentMonth: Int): LiveData<List<VegetableSeason>> {
+        return vegetableDao.getMonthVegetablesSeson(currentMonth)
     }
 
     override fun getAllVegetables(): LiveData<List<VegetableSeason>> {
