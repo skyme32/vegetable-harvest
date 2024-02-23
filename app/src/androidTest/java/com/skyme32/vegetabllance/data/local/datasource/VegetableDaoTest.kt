@@ -49,7 +49,7 @@ class VegetableDaoTest {
     @Test
     fun insertVegetableItem() = runBlocking {
 
-        val vegetableItem = Vegetable(1, true, "advocado", 2)
+        val vegetableItem = Vegetable(1, true, "advocado")
         dao.insertOrUpdateVegetable(vegetableItem)
 
         val allVegetables = dao.getAllVegetables().getOrAwaitValue()
