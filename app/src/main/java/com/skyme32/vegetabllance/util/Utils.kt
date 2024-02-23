@@ -5,7 +5,6 @@ import com.skyme32.vegetabllance.R
 import java.util.Locale
 
 fun parseMonths(month: Int, context: Context): String {
-    Locale.getDefault().displayLanguage;
     return when (month) {
         1 -> context.resources.getString(R.string.january)
         2 -> context.resources.getString(R.string.february)
