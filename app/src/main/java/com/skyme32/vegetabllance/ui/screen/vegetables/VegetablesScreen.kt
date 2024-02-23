@@ -19,6 +19,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.skyme32.vegetabllance.R
 import com.skyme32.vegetabllance.ui.component.Post
 import com.skyme32.vegetabllance.ui.component.getDrawableId
+import com.skyme32.vegetabllance.ui.component.getStringId
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -48,7 +49,7 @@ fun VegetablesScreen(
             items(vegetables.size) { index ->
                 val vegetable = vegetables[index]
 
-                Post(title = vegetable.vegetable.name,
+                Post(title = stringResource(getStringId(vegetable.vegetable.name)),
                     description = vegetable.vegetable.name,
                     image = getDrawableId(vegetable.vegetable.name),
                     listSeason = vegetable.seasons
