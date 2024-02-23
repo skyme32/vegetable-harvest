@@ -16,8 +16,5 @@ data class Vegetable(
     val type: Boolean,
 
     @ColumnInfo(name = "name")
-    val name: String,
-
-    @ColumnInfo(name = "image")
-    val image: Int,
+    val name: String
 )
