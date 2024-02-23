@@ -54,7 +54,6 @@ fun VegetablesScreen(
 
                 Post(
                     title = stringResource(getStringId(vegetable.vegetable.name)),
-                    description = vegetable.vegetable.name,
                     image = getDrawableId(vegetable.vegetable.name),
                     listSeason = vegetable.seasons
                 )
