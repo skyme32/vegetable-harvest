@@ -5,26 +5,38 @@
     <string name="fruit">fruta</string>
 
     <!-- Vegetables -->
-    <string name="eggplant">eggplant</string>
-    <string name="zucchini">zucchini</string>
-    <string name="tomatoes">tomatoes</string>
-    <string name="peas">peas</string>
-    <string name="beans">beans</string>
-    <string name="pepper">pepper</string>
-    <string name="chard">chard</string>
-    <string name="garlic">garlic</string>
-    <string name="artichoke">artichoke</string>
-    <string name="broccoli">broccoli</string>
-    <string name="celery">celery</string>
-    <string name="pumpkin">pumpkin</string>
-    <string name="onion">onion</string>
-    <string name="thistle">thistle</string>
-    <string name="red_cabbage">red cabbage</string>
-    <string name="cauliflower">cauliflower</string>
-    <string name="endive">endive</string>
+    <string name="eggplant">berenjena</string>
+    <string name="zucchini">calabacín</string>
+    <string name="tomatoes">tomate</string>
+    <string name="peas">guisante</string>
+    <string name="beans">haba</string>
+    <string name="pepper">pimiento</string>
+    <string name="chard">acelga</string>
+    <string name="garlic">ajo</string>
+    <string name="artichoke">alcachofa</string>
+    <string name="broccoli">brócoli</string>
+    <string name="celery">apio</string>
+    <string name="pumpkin">calabaza</string>
+    <string name="onion">cebolla</string>
+    <string name="thistle">cardo</string>
+    <string name="red_cabbage">col lombarda</string>
+    <string name="cauliflower">coliflor</string>
+    <string name="endive">endibia</string>
+    <string name="curly_endive">escarola</string>
+    <string name="green_asparagus">espárrago verde</string>
+    <string name="spinach">espinaca</string>
+    <string name="green_bean">judía verde</string>
+    <string name="lettuce">lechuga</string>
+    <string name="turnip">nabo</string>
+    <string name="cucumber">pepino</string>
+    <string name="leek">puerro</string>
+    <string name="radish">rábano</string>
+    <string name="beet">remolacha</string>
+    <string name="cabbage">repollo</string>
+    <string name="carrot">zanahoria</string>
 
     <!-- Fruits -->
-    <string name="avocado">avocado</string>
+    <string name="avocado">aguacate</string>
 
     <!-- Months -->
     <string name="january">Ene</string>
