@@ -1,7 +1,7 @@
 package com.skyme32.vegetabllance.ui.screen.vegetables
 
-import android.util.Log
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
@@ -14,6 +14,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.skyme32.vegetabllance.R
@@ -45,11 +46,14 @@ fun VegetablesScreen(
     ) { values ->
         val vegetables by viewModel.vegetables.observeAsState(arrayListOf())
 
-        LazyColumn(contentPadding = values) {
+        LazyColumn(
+            modifier = Modifier.padding(0.dp,4.dp),
+            contentPadding = values) {
             items(vegetables.size) { index ->
                 val vegetable = vegetables[index]
 
-                Post(title = stringResource(getStringId(vegetable.vegetable.name)),
+                Post(
+                    title = stringResource(getStringId(vegetable.vegetable.name)),
                     description = vegetable.vegetable.name,
                     image = getDrawableId(vegetable.vegetable.name),
                     listSeason = vegetable.seasons
