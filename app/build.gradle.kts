@@ -6,17 +6,17 @@ plugins {
 }
 
 android {
-    namespace = "com.skyme32.vegetabllance"
+    namespace = "com.skyme32.vegetableharvest"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.skyme32.vegetabllance"
+        applicationId = "com.skyme32.vegetableharvest"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "com.skyme32.vegetabllance.HiltTestRunner"
+        testInstrumentationRunner = "com.skyme32.vegetableharvest.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
