@@ -38,8 +38,7 @@ interface VegetableDao {
         "SELECT DISTINCT vegetable.* " +
                 "FROM vegetable " +
                 "JOIN season ON vegetable.id = season.id_vegetable " +
-                "WHERE season.month = :currentMonth " +
-                "AND season.type = 1"
+                "WHERE season.month = :currentMonth "
     )
     fun getMonthVegetablesSeson(currentMonth: Int): LiveData<List<VegetableSeason>>
 
