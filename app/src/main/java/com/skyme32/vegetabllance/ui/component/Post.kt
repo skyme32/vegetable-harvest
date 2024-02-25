@@ -22,7 +22,6 @@ import java.util.Locale
 @Composable
 fun Post(
     title: String,
-    description: String,
     image: Int,
     listSeason: List<Season>,
     modifier: Modifier = Modifier
@@ -49,12 +48,6 @@ fun Post(
                 text = title.lowercase()
                     .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString() },
                 style = MaterialTheme.typography.titleLarge
-            )
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = description.lowercase()
-                    .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString() },
-                style = MaterialTheme.typography.bodyMedium
             )
             Spacer(modifier = Modifier.height(8.dp))
             FlowRow(
