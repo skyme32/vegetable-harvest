@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.skyme32.vegetabllance.R
+import com.skyme32.vegetabllance.ui.component.Item
 import com.skyme32.vegetabllance.ui.component.Post
 import com.skyme32.vegetabllance.ui.component.getDrawableId
 import com.skyme32.vegetabllance.ui.component.getStringId
@@ -34,6 +35,7 @@ fun VegetablesScreen(
                     Text(
                         text = stringResource(id = R.string.app_name),
                         fontSize = 20.sp,
+                        color = MaterialTheme.colorScheme.background,
                         modifier = Modifier.fillMaxWidth()
                     )
                 },
@@ -50,15 +52,11 @@ fun VegetablesScreen(
             modifier = Modifier.padding(0.dp,4.dp),
             contentPadding = values) {
             items(vegetables.size) { index ->
-                val vegetable = vegetables[index]
 
-                Post(
-                    title = stringResource(getStringId(vegetable.vegetable.name)),
-                    description = vegetable.vegetable.name,
-                    image = getDrawableId(vegetable.vegetable.name),
-                    listSeason = vegetable.seasons
+                Item(
+                    vegetable = vegetables[index].vegetable,
+                    listSeason = vegetables[index].seasons
                 )
-
             }
         }
     }
