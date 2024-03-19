@@ -14,15 +14,15 @@ val FarmFont = FontFamily(
 
 val Typography = Typography(
     bodySmall = TextStyle(
-        fontFamily = FarmFont,
+        //fontFamily = FarmFont,
         fontSize = 14.sp
     ),
     bodyMedium = TextStyle(
-        fontFamily = FarmFont,
+        //fontFamily = FarmFont,
         fontSize = 16.sp
     ),
     bodyLarge = TextStyle(
-        fontFamily = FarmFont,
+        //fontFamily = FarmFont,
         fontSize = 18.sp
     ),
     titleSmall = TextStyle(
@@ -34,22 +34,22 @@ val Typography = Typography(
         fontSize = 19.sp
     ),
     titleLarge = TextStyle(
-        fontFamily = FarmFont,
+        //fontFamily = FarmFont,
         fontWeight = FontWeight.ExtraBold,
         fontSize = 21.sp
     ),
     labelLarge = TextStyle(
-        fontFamily = FarmFont,
+        //fontFamily = FarmFont,
         fontWeight = FontWeight.ExtraBold,
         fontSize = 16.sp
     ),
     labelMedium = TextStyle(
-        fontFamily = FarmFont,
+        //fontFamily = FarmFont,
         fontWeight = FontWeight.ExtraBold,
         fontSize = 15.sp
     ),
     labelSmall = TextStyle(
-        fontFamily = FarmFont,
+        //fontFamily = FarmFont,
         fontWeight = FontWeight.ExtraBold,
         fontSize = 14.sp
     )
