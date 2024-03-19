@@ -14,7 +14,7 @@ android {
         minSdk = 27
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "2024.3.1"
 
         testInstrumentationRunner = "com.skyme32.vegetableharvest.HiltTestRunner"
         vectorDrawables {
@@ -52,7 +52,6 @@ android {
 }
 
 dependencies {
-
 
     // Jetpack compose
     implementation("androidx.activity:activity-compose:1.8.2")
