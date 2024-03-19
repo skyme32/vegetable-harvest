@@ -55,19 +55,11 @@ fun Item(
                     .weight(1f)
                     .padding(6.dp)
             )
-            Spacer(modifier = Modifier.width(4.dp))
             Text(
                 modifier = Modifier.padding(8.dp).weight(3f),
                 text = stringResource(getStringId(vegetable.name))
                     .lowercase().replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString() },
-                style = MaterialTheme.typography.titleLarge
-            )
-            Spacer(modifier = Modifier.width(4.dp))
-            Icon(
-                modifier = Modifier.padding(start = 16.dp, end = 8.dp),
-                painter = painterResource(id = R.drawable.calendar_month_24),
-                contentDescription = "Icon",
-                tint = if (season.type) { LocalCustomColorsPalette.current.extraColor2 } else { Color.Gray },
+                style = MaterialTheme.typography.titleMedium
             )
         }
     }
